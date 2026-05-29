@@ -1,12 +1,12 @@
 # wn-finance-analyst-result
 
-Codex finance workflow output archive. This repository stores public-safe derived analysis generated from the local Obsidian finance workflow, not raw WeChat articles, IMA source notes, or full clipping text.
+Codex 财经工作流分析结果归档仓库。本仓库只保存本地 Obsidian 财经工作流生成的公开安全派生产物，不保存微信公众号原文、IMA 源笔记或完整剪藏正文。
 
-## Scope
+## 范围
 
-The source workflow reads curated finance notes from the local Obsidian vault, classifies recent articles, extracts reusable hypotheses, and writes derived outputs back to Obsidian before mirroring selected result directories here.
+源工作流读取本地 Obsidian vault 中人工精选的财经笔记，对近期文章分类评分，提取可复用假设，并先将派生产物写回 Obsidian，再把指定结果目录镜像到本仓库。
 
-Synced directories:
+同步目录：
 
 ```text
 50-decisions/
@@ -15,23 +15,23 @@ Synced directories:
 _agent/state/
 ```
 
-Excluded content:
+排除内容：
 
 ```text
 ima/
 Clippings/
-raw article bodies
-full source-note copies
-private Obsidian configuration
+原始文章正文
+完整源笔记副本
+私有 Obsidian 配置
 ```
 
-## Output Principles
+## 输出原则
 
-All author views are treated as hypotheses, not facts or trading instructions. Outputs separate original author views, Codex synthesis, observable signals, invalidation conditions, and follow-up review points. Public-safe records may include article titles, author names, source file names, summarized claims, hypothesis rows, and strategy candidates, but should not include long verbatim excerpts from source articles.
+所有作者观点都按假设处理，不视为事实或交易指令。输出需要区分原作者观点、Codex 归纳、可观察信号、失效条件和后续复盘点。公开安全记录可以包含文章标题、作者名、来源文件名、观点摘要、假设台账行和策略候选，但不应包含源文章的大段原文摘录。
 
-## Commit Identity
+## 提交身份
 
-This repository uses local Git configuration only:
+本仓库只使用局部 Git 配置：
 
 ```text
 user.name=weining
@@ -39,4 +39,4 @@ user.email=weininglai@qq.com
 core.sshCommand=ssh -i ~/.ssh/wn_finance_analyst_result_ed25519 -o IdentitiesOnly=yes
 ```
 
-Global Git identity remains unchanged.
+全局 Git 身份保持不变。
