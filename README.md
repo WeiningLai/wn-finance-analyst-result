@@ -9,10 +9,7 @@ Codex 财经工作流分析结果归档仓库。本仓库只保存本地 Obsidia
 同步目录：
 
 ```text
-50-decisions/
-40-distillations/
-30-strategies/
-_agent/state/
+finance-analysis/
 ```
 
 排除内容：
@@ -35,9 +32,21 @@ Clippings/
 
 这些产物不是交易答案，而是一个假设管理系统。它把人工精选文章拆成可观察、可验证、可失效、可复盘的记录，用于降低盘中临时起意和单篇文章带来的决策噪音。
 
-### 50-decisions/daily/
+目录结构：
 
-日级工作台，用于记录当天文章分流、盘中观点、收盘验证和次日观察项。常用文件为 `50-decisions/daily/YYYY-MM-DD.md`。
+```text
+finance-analysis/daily/
+finance-analysis/weekly/
+finance-analysis/monthly/
+finance-analysis/source-cards/
+finance-analysis/source-profiles/
+finance-analysis/strategy-candidates/
+finance-analysis/state/
+```
+
+### finance-analysis/daily/
+
+日级工作台，用于记录当天文章分流、盘中观点、收盘验证和次日观察项。常用文件为 `finance-analysis/daily/YYYY-MM-DD.md`。
 
 重点字段：
 
@@ -53,7 +62,7 @@ archive_decisions: 归档决策
 
 使用方式：盘前查看昨日 `tomorrow_watch`，盘中只看信号和失效条件，收盘后看观点是否被市场验证。不要把 daily 产物当成买卖指令，它只回答“今天哪些假设值得观察，哪些观点已经失效或需要降权”。
 
-### 40-distillations/weekly/
+### finance-analysis/weekly/
 
 周级归纳目录，用于把一周内的文章、source-card 候选和 daily 记录整理成市场共识、分歧、盲点和下周剧本。
 
@@ -88,7 +97,7 @@ reasons not to act: 不行动理由
 
 使用方式：周五晚用综合文件判断本周主线是否稳定，周日晚用 playbook 准备下周情景预案。playbook 的价值在于提前定义观察条件，而不是盘中追着观点改计划。
 
-### 40-distillations/source-cards/
+### finance-analysis/source-cards/
 
 信息源卡片目录，用于沉淀单个作者或单篇高价值文章的可复用判断框架。
 
@@ -111,7 +120,7 @@ related_notes: 关联笔记
 
 使用方式：不要按作者结论跟随，而是评估作者在哪类行情、板块、时间窗口里更有参考价值。source-card 用于回答“这个信息源擅长什么、容易错在哪里、观点什么时候应该降权”。
 
-### 30-strategies/candidates/
+### finance-analysis/strategy-candidates/
 
 策略候选目录，用于保存还没有升级为稳定策略的交易框架雏形。
 
@@ -131,7 +140,7 @@ promotion_requirement: 升级要求
 
 使用方式：strategy-candidate 只是观察对象，不是可直接执行的策略。只有当多个来源、多个交易日和复盘记录共同支持时，才考虑升级；单篇文章或单次盘中观点不能直接改变主动策略。
 
-### _agent/state/hypothesis-ledger.md
+### finance-analysis/state/hypothesis-ledger.md
 
 假设台账，用于持续跟踪观点是否被确认、失效或需要继续观察。这是长期复盘中最重要的文件。
 
