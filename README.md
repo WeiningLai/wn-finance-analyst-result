@@ -41,6 +41,7 @@ finance-analysis/monthly/
 finance-analysis/source-cards/
 finance-analysis/source-profiles/
 finance-analysis/strategy-candidates/
+finance-analysis/market-snapshots/
 finance-analysis/state/
 ```
 
@@ -139,6 +140,25 @@ promotion_requirement: 升级要求
 ```
 
 使用方式：strategy-candidate 只是观察对象，不是可直接执行的策略。只有当多个来源、多个交易日和复盘记录共同支持时，才考虑升级；单篇文章或单次盘中观点不能直接改变主动策略。
+
+### finance-analysis/market-snapshots/
+
+行情核验目录，用于保存 TickFlow 等数据源生成的 A 股市场快照。该目录服务于 closing review、daily triage、weekly synthesis 和 weekly playbook，重点验证指数结构、市场宽度、涨跌停结构和成交额是否支持文章中的市场状态假设。
+
+重点字段：
+
+```text
+fetched_at: 抓取时间
+source: 数据源
+scope: 覆盖范围
+indices: 主要指数
+market_breadth: 涨跌家数
+turnover: 成交额
+limit_structure: 涨跌停结构
+data_quality: 数据质量或降级状态
+```
+
+使用方式：market-snapshot 只用于确认或挑战文章假设，不生成买卖指令。当快照显示指数、成交额、涨跌家数与文章观点冲突时，应记录冲突并降低假设权重。
 
 ### finance-analysis/state/hypothesis-ledger.md
 
