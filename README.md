@@ -29,6 +29,8 @@ Clippings/
 
 所有作者观点都按假设处理，不视为事实或交易指令。输出需要区分原作者观点、Codex 归纳、可观察信号、失效条件和后续复盘点。公开安全记录可以包含文章标题、作者名、来源文件名、观点摘要、假设台账行和策略候选，但不应包含源文章的大段原文摘录。
 
+文章级产物必须使用源笔记 frontmatter 中的 `published` 日期，不使用 IMA `created` 日期、文件创建日期、同步日期或工作流运行日期。适用范围包括 source-card 文件名前缀、strategy-candidate 文件名前缀、hypothesis-ledger 的 `id/date`、文章分类记录中的 `published` 字段；如果源笔记缺少可解析的 `published`，应标记为 `needs-published-date`，并暂不生成文章级派生产物。
+
 ## 产物说明
 
 这些产物不是交易答案，而是一个假设管理系统。它把人工精选文章拆成可观察、可验证、可失效、可复盘的记录，用于降低盘中临时起意和单篇文章带来的决策噪音。
@@ -94,6 +96,7 @@ reasons not to act: 不行动理由
 
 ```text
 source: 来源
+published: 文章 published 时间
 one_line_thesis: 一句话核心判断
 original_author_view: 原作者观点
 evidence_chain: 证据链
