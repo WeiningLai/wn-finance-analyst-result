@@ -1,0 +1,4 @@
+interface:
+  display_name: "WN Finance Obsidian Workflow"
+  short_description: "Auto-runs finance workflows with strategy validation feedback"
+  default_prompt: "Use $WN-FINANCE-OBSIDIAN-WORKFLOW to inspect my Obsidian finance notes, choose the correct time-window workflow automatically, write the required triage, review, synthesis, playbook, ledger, strategy, or single-target observation output to Obsidian, attach research validation fields for strategy candidates when applicable, and sync public-safe derived outputs to my GitHub archive."
