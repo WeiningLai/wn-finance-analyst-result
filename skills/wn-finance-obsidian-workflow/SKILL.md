@@ -1,6 +1,6 @@
 ---
 name: WN-FINANCE-OBSIDIAN-WORKFLOW
-description: Use when the user wants Codex to run the finance Obsidian workflow with no extra prompt. The skill reads the user's Obsidian vault, detects the current time window, and automatically chooses inbox triage, noon review, closing review, daily archive, weekly synthesis, weekly playbook, monthly review, quarterly source review, source-card creation, strategy-candidate extraction, or hypothesis-ledger updates for WeChat/IMA finance notes, then writes derived outputs to Obsidian and syncs public-safe results to the user's GitHub archive.
+description: Use when the user wants Codex to run the finance Obsidian workflow with no extra prompt. The skill reads the user's Obsidian vault, detects the current time window, and automatically chooses inbox triage, noon review, closing review, daily archive, weekly synthesis, weekly playbook, monthly review, quarterly source review, article-card creation, draft-strategy extraction, or hypothesis-tracking updates for WeChat/IMA finance notes, then writes readable Chinese Markdown outputs to Obsidian and syncs public-safe results to the user's GitHub archive.
 ---
 
 # WN Finance Obsidian Workflow
@@ -24,9 +24,9 @@ daily_triage
 inbox_triage
 ```
 
-For `closing_review`, `daily_triage`, `weekly_synthesis`, and `weekly_playbook`, run `scripts/market_snapshot.py` before writing analysis when TickFlow is configured. After writing Obsidian outputs, run `scripts/audit_artifact_dates.sh`, then run `scripts/github_sync.sh` unless `WN_FINANCE_GITHUB_SYNC=0` or `WN_FINANCE_REPORT_ONLY=1`. If the artifact date audit fails, fix article-level dates before GitHub sync. If GitHub sync fails, keep the Obsidian write and report the sync status.
+For `closing_review`, `daily_triage`, `weekly_synthesis`, and `weekly_playbook`, run `scripts/market_snapshot.py` before writing analysis when TickFlow is configured. After writing Obsidian outputs, run `scripts/audit_artifact_dates.sh`, then run `scripts/github_sync.sh` unless `WN_FINANCE_GITHUB_SYNC=0` or `WN_FINANCE_REPORT_ONLY=1`. If the file date audit fails, fix article-level dates before GitHub sync. If GitHub sync fails, keep the Obsidian write and report the sync status.
 
-For strategy-candidate extraction or promotion, use the strategy research validation layer when the candidate can be expressed as observable OHLCV, market-regime, sector, or event-proxy conditions. Validation can be manual, script-assisted, or data-source-assisted. Do not block the workflow if market data is unavailable or the candidate lacks enough observable conditions.
+For draft-strategy extraction or promotion, use the strategy research validation layer when the idea can be expressed as observable OHLCV, market-regime, sector, or event-proxy conditions. Validation can be manual, script-assisted, or data-source-assisted. Do not block the workflow if market data is unavailable or the idea lacks enough observable conditions.
 
 ## Vault
 
@@ -55,6 +55,19 @@ finance-analysis/state/
 
 Default to writing workflow results into Obsidian. Do not stop at chat-only output unless the user explicitly asks for report-only mode or `WN_FINANCE_REPORT_ONLY=1` is set.
 
+## Output Style
+
+Write human-facing files in polished Markdown with Chinese headings and table headers. Prefer this order: title, short daily note, summary table, then compact sections. Use a natural daily Chinese tone: clear, direct, and easy to read, but do not use jokes, slang, or casual filler. Keep financial boundaries explicit: all author views are hypotheses, not trading instructions.
+
+Use Markdown tables for metadata and triage summaries. Use short paragraphs for "作者怎么看", "我们怎么理解", "接下来怎么观察", and "什么情况说明错了". Avoid long raw key-value blocks in public-facing files. Article cards must still keep these machine-readable audit anchors as plain lines near the top:
+
+```text
+published: YYYY-MM-DDTHH:MM:SS
+related_notes: ima/...
+```
+
+Hypothesis tracking tables must use Chinese column headers, but rows must still start with `| H-... |` and keep the date as the second data column so `scripts/audit_artifact_dates.sh` can audit IDs against dates.
+
 Use these output files:
 
 ```text
@@ -72,17 +85,17 @@ market-snapshot: finance-analysis/market-snapshots/YYYY-MM-DD.md
 hypothesis-ledger: finance-analysis/state/hypothesis-ledger.md
 ```
 
-For article-level artifacts, `YYYY-MM-DD` must be the article `published` date from source frontmatter, not the IMA `created` date, filesystem creation date, sync date, or workflow run date. If a source note has no parseable `published` value, mark the item as `needs-published-date` and do not create source-card, strategy-candidate, or hypothesis-ledger rows for that article.
+For article-level files, `YYYY-MM-DD` must be the article `published` date from source frontmatter, not the IMA `created` date, filesystem creation date, sync date, or workflow run date. If a source note has no parseable `published` value, mark the item as `needs-published-date` and do not create an article card, draft strategy, or hypothesis tracking row for that article.
 
 Create missing directories before writing. For daily, weekly, monthly, and quarterly workflow files, overwrite the section for the same workflow/date when rerun and preserve unrelated sections. For source cards and strategy candidates, create a new file if absent and update the same file if the same source note is processed again. For hypothesis ledger, append new rows and avoid duplicate source/title/hypothesis rows.
 
-After article-level artifacts are written or updated, run:
+After article-level files are written or updated, run:
 
 ```text
 scripts/audit_artifact_dates.sh
 ```
 
-The audit must return `artifact_date_audit=ok` before syncing to GitHub. It checks source-card file dates, card `published` fields, related IMA note `published` values, and hypothesis-ledger `id/date` consistency.
+The audit must return `artifact_date_audit=ok` before syncing to GitHub. It checks article-card file dates, card `published` fields, related IMA note `published` values, and hypothesis-tracking `id/date` consistency.
 
 ## GitHub Archive
 
@@ -145,9 +158,9 @@ The script writes `finance-analysis/market-snapshots/YYYY-MM-DD.md` with main A-
 
 ## Strategy Research Validation
 
-Use this layer to convert high-quality article hypotheses into observable research candidates and attach validation evidence to Obsidian artifacts. The borrowed pattern is: thesis -> observable rule -> validation sample -> research verdict -> promotion or rejection. Use it only after preserving the separation between original author view, Codex synthesis, observable signal, invalidation condition, and user-actionable hypothesis.
+Use this layer to convert high-quality article hypotheses into observable research ideas and attach validation evidence to Obsidian files. The borrowed pattern is: thesis -> observable rule -> validation sample -> research verdict -> promotion or rejection. Use it only after preserving the separation between original author view, Codex synthesis, observable signal, invalidation condition, and user-actionable hypothesis.
 
-When creating or updating a `strategy-candidate`, add validation fields when applicable:
+When creating or updating a draft strategy file, add validation fields when applicable:
 
 ```text
 validation_status: text_only | observable_draft | blocked_data | sample_checked | rejected | watchlist_candidate | promoted
@@ -182,7 +195,7 @@ regime_fit: stated and not contradicted by available market snapshots
 signal_count: enough for the stated timeframe, normally >= 30 unless explicitly marked small-sample
 robustness_check: no obvious small-sample, hindsight, single-source, market-regime, or overfitting failure
 review_lenses: data_quality, regime_fit, risk_reward, robustness, and actionability are pass or watch, not fail
-source evidence: at least source-card level, not a single intraday note
+source evidence: at least article-card level, not a single intraday note
 ```
 
 If the rule cannot be represented as observable conditions, keep `validation_status: text_only` and state the missing observable signal. If market data is blocked, keep `validation_status: blocked_data` and do not infer validation. Do not write raw article text, API keys, private notes, or full LLM prompts into reports synced to GitHub.
@@ -196,7 +209,7 @@ Accepted feedback destinations:
 ```text
 - finance-analysis/daily/YYYY-MM-DD.md under single-target observations
 - finance-analysis/state/hypothesis-ledger.md as evidence rows or review notes
-- related strategy-candidate files under observation_log or validation_artifacts when the observation maps to existing observable_conditions
+- related draft-strategy files under observation_log or validation_artifacts when the observation maps to existing observable_conditions
 ```
 
 Do not let one intraday observation promote, reject, or materially rewrite a strategy candidate. Promotion, rejection, or hypothesis status changes must happen in daily_triage, weekly_synthesis, weekly_playbook, or monthly_review after checking evidence quality, regime fit, robustness, and source context.
@@ -207,6 +220,8 @@ Do not let one intraday observation promote, reject, or materially rewrite a str
 - Always try IMA sync before selecting the workflow unless `WN_FINANCE_SKIP_SYNC=1`.
 - Treat all blogger views as hypotheses, not facts.
 - Separate original author view, Codex synthesis, observable signal, invalidation condition, and user-actionable hypothesis.
+- Human-facing file headings and table headers should be in Chinese.
+- Prefer readable Markdown sections over raw English field names. Keep `published:` and `related_notes:` anchors in article cards for audit compatibility.
 - Skip IMA warning blocks that start with `> [!warning] 由于目标网站限制`.
 - Prefer recent IMA notes under `ima/个人知识库/` and finance clippings under `Clippings/`.
 - Do not provide direct buy or sell instructions.
@@ -216,14 +231,14 @@ Do not let one intraday observation promote, reject, or materially rewrite a str
 - For time-sensitive claims, use concrete dates.
 - For each article, use the `published` frontmatter date as the article date. Do not use `created`, file ctime, sync time, or workflow run date for article-level dates.
 - If content is insufficient, mark the note as `needs-full-content`; do not infer missing article text.
-- If `published` is missing or invalid, mark the note as `needs-published-date` and skip article-level derived artifacts until the date is available.
+- If `published` is missing or invalid, mark the note as `needs-published-date` and skip article-level derived files until the date is available.
 - Keep GitHub archive output public-safe by default and do not include raw IMA article bodies.
 
 ## Workflow Selection
 
 After running `scripts/decide_workflow.sh`, read `references/workflows.md` for the selected workflow and `references/output-contract.md` for the required output format.
 
-If the selected workflow is `inbox_triage`, read only recent notes first. If high-value articles are found, write the triage file and create recommended source-card, strategy-candidate, and hypothesis-ledger artifacts when the evidence standard requires them.
+If the selected workflow is `inbox_triage`, read only recent notes first. If high-value articles are found, write the triage file and create recommended article cards, draft strategies, or hypothesis tracking rows when the evidence standard requires them.
 
 ## Evidence Standard
 
@@ -243,6 +258,6 @@ Processing rule:
 ```text
 score <= 12: archive only
 13-18: daily-note
-19-24: source-card candidate
-25-30: source-card + hypothesis-ledger candidate
+19-24: can become an article card
+25-30: can become an article card and enter the hypothesis tracking list
 ```

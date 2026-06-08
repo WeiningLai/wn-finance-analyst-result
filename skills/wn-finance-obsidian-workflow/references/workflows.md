@@ -16,7 +16,7 @@ E: source-profile material
 
 Use each note's frontmatter `published` value as the article date. Do not use `created`, filesystem dates, sync time, or workflow run date for article-level dates. If `published` is missing or invalid, mark the item as `needs-published-date`.
 
-Write the classification, score, topic, evidence, next artifact, published date, and file path to `finance-analysis/daily/YYYY-MM-DD.md`. Create source cards, strategy candidates, and hypothesis ledger rows for items that meet the evidence standard and have a valid published date.
+Write the classification, score, topic, evidence, next step, published date, and file path to `finance-analysis/daily/YYYY-MM-DD.md`. Create article cards, draft strategies, and hypothesis tracking rows for items that meet the evidence standard and have a valid published date.
 
 ## noon_review
 
@@ -64,9 +64,9 @@ Run `scripts/market_snapshot.py` when TickFlow is configured. Read IMA notes and
 ```text
 ignore
 daily-note
-source-card
-hypothesis-ledger
-strategy-candidate
+article card
+hypothesis tracking row
+draft strategy
 needs-full-content
 needs-published-date
 ```
@@ -77,13 +77,13 @@ Write the daily triage section to `finance-analysis/daily/YYYY-MM-DD.md`. Create
 
 For each created or updated strategy candidate, fill the research validation fields from `references/output-contract.md` when the idea can be expressed as observable rules. Use `validation_status: text_only` when the article is still narrative-only, and `validation_status: blocked_data` when market data is unavailable.
 
-Read same-day single-target observations when present and attach them to related hypothesis-ledger rows or strategy candidates when ids match. Do not change hypothesis or strategy status solely from one observation.
+Read same-day single-target observations when present and attach them to related hypothesis tracking rows or draft strategies when ids match. Do not change hypothesis or strategy status solely from one observation.
 
 ## weekly_synthesis
 
 Use Friday `22:00-22:40`.
 
-Run `scripts/market_snapshot.py` when TickFlow is configured. Read this week's source-card candidates, daily notes, finance IMA notes, and available market snapshots. Output:
+Run `scripts/market_snapshot.py` when TickFlow is configured. Read this week's article-card candidates, daily notes, finance IMA notes, and available market snapshots. Output:
 
 ```text
 weekly consensus
