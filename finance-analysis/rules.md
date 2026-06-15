@@ -2,8 +2,8 @@
 title: 投资规则
 type: meta
 domain: [investing]
-created: 2026-06-12
-updated: 2026-06-12
+created: 2026-06-15
+updated: 2026-06-15
 confidence: medium
 ---
 

@@ -2,8 +2,8 @@
 title: 被证伪或需要降权的认知
 type: meta
 domain: [investing]
-created: 2026-06-12
-updated: 2026-06-12
+created: 2026-06-15
+updated: 2026-06-15
 confidence: medium
 ---
 
