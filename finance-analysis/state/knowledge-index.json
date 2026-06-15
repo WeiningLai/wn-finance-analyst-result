@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-15",
-  "total_pages": 73,
+  "total_pages": 74,
   "pages": [
     {
       "path": "concepts/ETF定投.md",
@@ -35,6 +35,7 @@
       "links": [
         "entities/ETF定投/profile",
         "entities/高股息/profile",
+        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银",
         "source-cards/2026-06-14__顶格8848__失策了",
         "source-cards/2026-06-14__ghb870e859d38d__6.15午评",
         "source-cards/2026-06-13__ghb870e859d38d__6.14瞎聊",
@@ -75,7 +76,8 @@
         "source-cards/2026-06-11__随便写写啦01__6.11收.md",
         "source-cards/2026-06-13__ghb870e859d38d__6.14瞎聊.md",
         "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
-        "source-cards/2026-06-14__顶格8848__失策了.md"
+        "source-cards/2026-06-14__顶格8848__失策了.md",
+        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md"
       ]
     },
     {
@@ -209,6 +211,7 @@
         "entities/PCB材料/profile",
         "entities/锂矿/profile",
         "entities/黄金有色/profile",
+        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银",
         "source-cards/2026-06-14__顶格8848__失策了",
         "source-cards/2026-06-14__ghb870e859d38d__6.15午评",
         "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉",
@@ -247,7 +250,8 @@
         "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
         "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
         "source-cards/2026-06-14__顶格8848__失策了.md",
-        "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md"
+        "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md",
+        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md"
       ]
     },
     {
@@ -374,6 +378,7 @@
       "type": "concept",
       "links": [
         "entities/黄金有色/profile",
+        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银",
         "source-cards/2026-06-14__顶格8848__失策了",
         "source-cards/2026-06-14__ghb870e859d38d__6.15午评",
         "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉",
@@ -411,7 +416,8 @@
         "source-cards/2026-06-13__ghb870e859d38d__6.14瞎聊.md",
         "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
         "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
-        "source-cards/2026-06-14__顶格8848__失策了.md"
+        "source-cards/2026-06-14__顶格8848__失策了.md",
+        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md"
       ]
     },
     {
@@ -783,6 +789,7 @@
       "links": [
         "concepts/涨价方向",
         "concepts/黄金有色周期",
+        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银",
         "source-cards/2026-06-14__顶格8848__失策了",
         "source-cards/2026-06-14__ghb870e859d38d__6.15午评",
         "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉",
@@ -821,7 +828,8 @@
         "source-cards/2026-06-13__ghb870e859d38d__6.14瞎聊.md",
         "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
         "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
-        "source-cards/2026-06-14__顶格8848__失策了.md"
+        "source-cards/2026-06-14__顶格8848__失策了.md",
+        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md"
       ]
     },
     {
@@ -1674,6 +1682,24 @@
       ]
     },
     {
+      "path": "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md",
+      "title": "东边雪山亮的像白银",
+      "type": "source-card",
+      "links": [
+        "concepts/涨价方向",
+        "concepts/仓位和交易纪律",
+        "concepts/黄金有色周期",
+        "entities/黄金有色/profile"
+      ],
+      "updated": "2026-06-15",
+      "resolved_links": [
+        "concepts/仓位和交易纪律.md",
+        "concepts/涨价方向.md",
+        "concepts/黄金有色周期.md",
+        "entities/黄金有色/profile.md"
+      ]
+    },
+    {
       "path": "state/hypothesis-ledger.md",
       "title": "hypothesis-ledger",
       "type": "state",
@@ -1802,7 +1828,8 @@
       "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
       "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
       "source-cards/2026-06-14__顶格8848__失策了.md",
-      "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md"
+      "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md",
+      "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md"
     ],
     "state": [
       "state/hypothesis-ledger.md"
@@ -1844,6 +1871,7 @@
       "source-cards/2026-06-13__ghb870e859d38d__6.14瞎聊.md",
       "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
       "source-cards/2026-06-14__顶格8848__失策了.md",
+      "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md",
       "state/knowledge-attention.md"
     ],
     "concepts/十五五政策方向.md": [
@@ -1924,6 +1952,7 @@
       "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
       "source-cards/2026-06-14__顶格8848__失策了.md",
       "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md",
+      "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md",
       "state/knowledge-attention.md"
     ],
     "concepts/科技主线轮动.md": [
@@ -2004,6 +2033,7 @@
       "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
       "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
       "source-cards/2026-06-14__顶格8848__失策了.md",
+      "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md",
       "state/knowledge-attention.md"
     ],
     "entities/AI电源/profile.md": [
@@ -2138,7 +2168,8 @@
       "source-cards/2026-06-13__ghb870e859d38d__6.14瞎聊.md",
       "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
       "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
-      "source-cards/2026-06-14__顶格8848__失策了.md"
+      "source-cards/2026-06-14__顶格8848__失策了.md",
+      "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md"
     ],
     "false-beliefs.md": [
       "overview.md"
@@ -2430,6 +2461,12 @@
       "concepts/高股息和利率.md",
       "entities/半导体设备/profile.md",
       "entities/高股息/profile.md"
+    ],
+    "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md": [
+      "concepts/仓位和交易纪律.md",
+      "concepts/涨价方向.md",
+      "concepts/黄金有色周期.md",
+      "entities/黄金有色/profile.md"
     ],
     "state/hypothesis-ledger.md": [
       "false-beliefs.md",
