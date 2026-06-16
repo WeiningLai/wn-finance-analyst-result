@@ -2,8 +2,8 @@
 title: 半导体材料
 type: entity
 domain: [investing]
-created: 2026-06-15
-updated: 2026-06-15
+created: 2026-06-16
+updated: 2026-06-16
 confidence: medium
 aliases: [半导体耗材, 电子化学品, 光刻胶, 电子特气, 硅片, 玻璃基板]
 judgment: watching
@@ -15,7 +15,7 @@ judgment: watching
 
 ## 当前判断
 
-截至 2026-06-15，该对象关联 10 张文章卡片和 6 条假设。结论仍需价格、订单、利润或市场结构继续验证。
+截至 2026-06-16，该对象关联 10 张文章卡片和 6 条假设。结论仍需价格、订单、利润或市场结构继续验证。
 
 ## 相关概念
 
