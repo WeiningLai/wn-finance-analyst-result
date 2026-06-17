@@ -178,7 +178,9 @@ unsupported claims
 
 Write to `finance-analysis/weekly/YYYY-WW__周复盘.md`. On catch-up runs, use `target_week` from `scripts/decide_workflow.sh` for `YYYY-WW`.
 
-The weekly file must use the fixed weekly heading order from `references/output-contract.md`: `速览`, `资料闭环`, `博主共识和分歧`, `核心判断`, `验证指标`, `假设和规则`, `策略和执行`, `盲点和暂不支持`, and `下次复盘`. It must include hypothesis handling, rule handling, strategy-candidate handling, unsupported claims, and next review actions. It should be usable as a durable reference file even if the original daily notes are not reopened.
+The weekly file must use the fixed weekly heading order from `references/output-contract.md`: `速览`, `本周主线`, `资料闭环`, `博主共识和分歧`, `核心判断`, `验证指标`, `假设和规则`, `策略和执行`, `盲点和暂不支持`, and `下次复盘`. It must include hypothesis handling, rule handling, strategy-candidate handling, unsupported claims, and next review actions. It should be usable as a durable reference file even if the original daily notes are not reopened.
+
+The weekly synthesis must be human-readable before it is machine-readable. Write `本周主线` as 2-3 short paragraphs, write `核心判断` as short judgment paragraphs instead of a dense table, keep tables to 4 columns or fewer, and explain each hypothesis or rule id on first use.
 
 The weekly file must treat blogger consensus and blogger disagreement as an evidence layer, not as a casual summary. Use the section `博主共识和分歧`. Each row should state whether it is a consensus or disagreement, the source evidence, how it enters the knowledge base, the next verification action, and what would invalidate or downgrade it.
 
@@ -207,7 +209,9 @@ reasons not to act
 
 Write to `finance-analysis/weekly/YYYY-WW__周计划.md`. On catch-up runs, use `target_week` from `scripts/decide_workflow.sh` for `YYYY-WW`.
 
-The playbook file must use the fixed weekly heading order from `references/output-contract.md`: `速览`, `资料闭环`, `博主共识和分歧`, `核心判断`, `验证指标`, `假设和规则`, `策略和执行`, `盲点和暂不支持`, and `下次复盘`. It must include `资料闭环` that links back to the weekly synthesis, lists the hypotheses or rules being tested this week, states what signals trigger recording, and states what signals trigger downgrade.
+The playbook file must use the fixed weekly heading order from `references/output-contract.md`: `速览`, `本周主线`, `资料闭环`, `博主共识和分歧`, `核心判断`, `验证指标`, `假设和规则`, `策略和执行`, `盲点和暂不支持`, and `下次复盘`. It must include `资料闭环` that links back to the weekly synthesis, lists the hypotheses or rules being tested this week, states what signals trigger recording, and states what signals trigger downgrade.
+
+The playbook must be readable as a next-week plan. Write `本周主线` as the plain-language setup for the week, write `核心判断` as base, bull, and bear scenarios, keep tables to 4 columns or fewer, and make every `下次复盘` trigger action concrete, using "if X then do Y" wording rather than status labels only.
 
 The playbook file must include `博主共识和分歧`, using the previous weekly synthesis as its evidence source. Do not only list scenarios; state which consensus or disagreement is being tested in the new week and what signal would prove it weak.
 

@@ -75,6 +75,8 @@ Default to writing workflow results into Obsidian. Do not stop at chat-only outp
 
 Write human-facing files in polished Markdown with Chinese headings and table headers. Prefer this order: title, short daily note, summary table, then compact sections. Use a natural daily Chinese tone: clear, direct, and easy to read, but do not use jokes, slang, or casual filler. Keep financial boundaries explicit: all author views are hypotheses, not trading instructions.
 
+Weekly review and playbook files must be readable by a person before they are useful to an AI. Put a plain-language `本周主线` section near the top, use short paragraphs for the main view, keep tables for comparison and audit details, and avoid table-heavy pages where the reader must reconstruct the conclusion from many cells.
+
 Daily, weekly, monthly, playbook, and Xiaohongshu intake files must share the same investment-reference skeleton: `速览`, `资料闭环`, workflow-specific body sections, and `下次复盘`. Each file must state what was read, what conclusion was made, what entered the knowledge base, what remains unsupported, what should be reviewed next, and what evidence would invalidate the current view. Do not leave important items as a loose watchlist.
 
 Use Markdown tables for metadata and triage summaries. Use short paragraphs for "作者怎么看", "我们怎么理解", "接下来怎么观察", and "什么情况说明错了". Avoid long raw key-value blocks in public-facing files. Article cards must still keep these machine-readable audit anchors as plain lines near the top:
