@@ -35,6 +35,7 @@ if [ -z "$vault" ] || [ ! -d "$plugin_dir" ]; then
 fi
 
 command_name="立即同步 ima.copilot 笔记"
+search_query="${WN_FINANCE_IMA_SYNC_QUERY:-ima.copilot}"
 data_json="$plugin_dir/data.json"
 before_sync_time=""
 if [ -f "$data_json" ]; then
@@ -46,12 +47,16 @@ if [ "$dry_run" -eq 1 ]; then
   printf 'reason=would_trigger_obsidian_command_palette\n'
   printf 'vault=%s\n' "$vault"
   printf 'command=%s\n' "$command_name"
+  printf 'search_query=%s\n' "$search_query"
   printf 'lastSyncTime=%s\n' "$before_sync_time"
   exit 0
 fi
 
 set +e
-osascript <<'APPLESCRIPT' >/tmp/wn-finance-ima-sync.out 2>/tmp/wn-finance-ima-sync.err
+osascript - "$search_query" <<'APPLESCRIPT' >/tmp/wn-finance-ima-sync.out 2>/tmp/wn-finance-ima-sync.err
+on run argv
+set syncQuery to item 1 of argv
+
 tell application "Obsidian"
   activate
 end tell
@@ -65,10 +70,11 @@ tell application "System Events"
   end tell
   keystroke "p" using {command down}
   delay 0.4
-  keystroke "立即同步 ima.copilot 笔记"
+  keystroke syncQuery
   delay 0.4
   key code 36
 end tell
+end run
 APPLESCRIPT
 status=$?
 set -e
@@ -88,6 +94,7 @@ if [ "$status" -eq 0 ]; then
         printf 'reason=lastSyncTime_changed\n'
         printf 'vault=%s\n' "$vault"
         printf 'command=%s\n' "$command_name"
+        printf 'search_query=%s\n' "$search_query"
         printf 'before_lastSyncTime=%s\n' "$before_sync_time"
         printf 'after_lastSyncTime=%s\n' "$after_sync_time"
         printf 'elapsed_seconds=%s\n' "$elapsed"
@@ -99,6 +106,7 @@ if [ "$status" -eq 0 ]; then
   printf 'reason=lastSyncTime_not_changed\n'
   printf 'vault=%s\n' "$vault"
   printf 'command=%s\n' "$command_name"
+  printf 'search_query=%s\n' "$search_query"
   printf 'before_lastSyncTime=%s\n' "$before_sync_time"
   printf 'after_lastSyncTime=%s\n' "$after_sync_time"
   printf 'elapsed_seconds=%s\n' "$elapsed"
@@ -107,5 +115,6 @@ else
   printf 'reason=osascript_failed\n'
   printf 'vault=%s\n' "$vault"
   printf 'command=%s\n' "$command_name"
+  printf 'search_query=%s\n' "$search_query"
   printf 'stderr=%s\n' "$(tr '\n' ' ' </tmp/wn-finance-ima-sync.err | sed 's/[[:space:]]*$//')"
 fi

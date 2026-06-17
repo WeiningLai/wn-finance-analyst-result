@@ -28,6 +28,7 @@ fi
 
 today="$(TZ="$tz" date +%Y-%m-%d)"
 year="$(TZ="$tz" date +%Y)"
+week_id="$(TZ="$tz" date +%G-W%V)"
 month="$(TZ="$tz" date +%m)"
 week="$(TZ="$tz" date +%V)"
 quarter=$(( (10#$month - 1) / 3 + 1 ))
@@ -42,10 +43,10 @@ case "$workflow" in
     rel="finance-analysis/daily/$today.md"
     ;;
   weekly_synthesis)
-    rel="finance-analysis/weekly/$year-W$week.md"
+    rel="finance-analysis/weekly/${week_id}__周复盘.md"
     ;;
   weekly_playbook)
-    rel="finance-analysis/weekly/$year-W$week-playbook.md"
+    rel="finance-analysis/weekly/${week_id}__周计划.md"
     ;;
   monthly_review)
     rel="finance-analysis/monthly/$year-$month.md"
@@ -70,7 +71,8 @@ case "$workflow" in
       exit 0
     fi
     safe_name="$(printf '%s' "$name" | sed 's#[/:]#_#g; s#[[:cntrl:]]##g')"
-    rel="finance-analysis/source-cards/${published_date}__$safe_name.md"
+    published_month="$(printf '%s' "$published_date" | cut -c1-7)"
+    rel="finance-analysis/source-cards/${published_month}/${published_date}__$safe_name.md"
     ;;
   strategy-candidate)
     if [ -z "$name" ]; then

@@ -1,4 +1,4 @@
 interface:
   display_name: "WN Finance Obsidian Workflow"
-  short_description: "Auto-runs finance workflows and writes readable Chinese Markdown outputs"
-  default_prompt: "Use $WN-FINANCE-OBSIDIAN-WORKFLOW to inspect my Obsidian finance notes, choose the correct time-window workflow automatically, write readable Chinese Markdown triage, review, synthesis, playbook, ledger, strategy, or single-target observation outputs to Obsidian, attach research validation fields for strategy candidates when applicable, and sync public-safe derived outputs to my GitHub archive."
+  short_description: "Auto-runs finance workflows and public source intake into Chinese Markdown"
+  default_prompt: "Use $WN-FINANCE-OBSIDIAN-WORKFLOW to inspect my Obsidian finance notes, choose the correct time-window workflow automatically, import readable Xiaohongshu/OpenCLI finance sources when links or profiles are provided, write readable Chinese Markdown triage, review, synthesis, playbook, ledger, source-profile, strategy, or single-target observation outputs to Obsidian, attach research validation fields for strategy candidates when applicable, and sync public-safe derived outputs to my GitHub archive."
