@@ -2191,7 +2191,12 @@
         "concepts/ETF定投",
         "concepts/十五五政策方向",
         "concepts/高股息和利率",
-        "concepts/科技材料第二波"
+        "concepts/科技材料第二波",
+        "source-profiles/顶格8848",
+        "source-profiles/xiaohongshu__Lil Gator 小鳄鱼",
+        "source-profiles/心克鲁斯",
+        "source-profiles/ghb870e859d38d",
+        "source-profiles/随便写写啦01"
       ],
       "updated": "2026-06-17",
       "resolved_links": [
@@ -2204,7 +2209,12 @@
         "concepts/科技主线轮动.md",
         "concepts/科技材料第二波.md",
         "concepts/高股息和利率.md",
-        "concepts/黄金有色周期.md"
+        "concepts/黄金有色周期.md",
+        "source-profiles/ghb870e859d38d.md",
+        "source-profiles/xiaohongshu__Lil Gator 小鳄鱼.md",
+        "source-profiles/心克鲁斯.md",
+        "source-profiles/随便写写啦01.md",
+        "source-profiles/顶格8848.md"
       ]
     },
     {
@@ -3107,6 +3117,21 @@
       "entities/半导体设备/profile.md",
       "overview.md",
       "source-profiles/顶格8848.md"
+    ],
+    "source-profiles/ghb870e859d38d.md": [
+      "state/knowledge-attention.md"
+    ],
+    "source-profiles/xiaohongshu__Lil Gator 小鳄鱼.md": [
+      "state/knowledge-attention.md"
+    ],
+    "source-profiles/心克鲁斯.md": [
+      "state/knowledge-attention.md"
+    ],
+    "source-profiles/随便写写啦01.md": [
+      "state/knowledge-attention.md"
+    ],
+    "source-profiles/顶格8848.md": [
+      "state/knowledge-attention.md"
     ],
     "state/hypothesis-ledger.md": [
       "false-beliefs.md",
