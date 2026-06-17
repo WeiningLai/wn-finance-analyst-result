@@ -2064,6 +2064,17 @@
       "title": "来源画像：ghb870e859d38d",
       "type": "source-profile",
       "links": [
+        "concepts/科技主线轮动",
+        "concepts/仓位和交易纪律",
+        "concepts/宏观事件窗口",
+        "concepts/涨价方向",
+        "concepts/十五五政策方向",
+        "entities/黄金有色/profile",
+        "entities/证券/profile",
+        "entities/新能源/profile",
+        "entities/PCB材料/profile",
+        "entities/半导体材料/profile",
+        "entities/AI电源/profile",
         "source-cards/2026-06-15__ghb870e859d38d__6.16午评",
         "source-cards/2026-06-14__ghb870e859d38d__6.15午评",
         "source-cards/2026-06-13__ghb870e859d38d__6.14瞎聊",
@@ -2075,6 +2086,17 @@
       ],
       "updated": "2026-06-17",
       "resolved_links": [
+        "concepts/仓位和交易纪律.md",
+        "concepts/十五五政策方向.md",
+        "concepts/宏观事件窗口.md",
+        "concepts/涨价方向.md",
+        "concepts/科技主线轮动.md",
+        "entities/AI电源/profile.md",
+        "entities/PCB材料/profile.md",
+        "entities/半导体材料/profile.md",
+        "entities/新能源/profile.md",
+        "entities/证券/profile.md",
+        "entities/黄金有色/profile.md",
         "source-cards/2026-05-30__ghb870e859d38d__简单聊几个交易纪律的问题.md",
         "source-cards/2026-06-07__ghb870e859d38d__6.8午评.md",
         "source-cards/2026-06-08__ghb870e859d38d__6.9午评.md",
@@ -2106,6 +2128,17 @@
       "title": "来源画像：心克鲁斯",
       "type": "source-profile",
       "links": [
+        "concepts/宏观事件窗口",
+        "concepts/科技主线轮动",
+        "concepts/黄金有色周期",
+        "concepts/科技材料第二波",
+        "concepts/国产替代",
+        "entities/PCB材料/profile",
+        "entities/黄金有色/profile",
+        "entities/CPO光模块/profile",
+        "entities/半导体材料/profile",
+        "entities/锂矿/profile",
+        "entities/AI电源/profile",
         "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化",
         "source-cards/2026-06-15__心克鲁斯__纳斯达克暴涨后的数据统计以及第一份年中报诞生",
         "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉",
@@ -2117,6 +2150,17 @@
       ],
       "updated": "2026-06-17",
       "resolved_links": [
+        "concepts/国产替代.md",
+        "concepts/宏观事件窗口.md",
+        "concepts/科技主线轮动.md",
+        "concepts/科技材料第二波.md",
+        "concepts/黄金有色周期.md",
+        "entities/AI电源/profile.md",
+        "entities/CPO光模块/profile.md",
+        "entities/PCB材料/profile.md",
+        "entities/半导体材料/profile.md",
+        "entities/锂矿/profile.md",
+        "entities/黄金有色/profile.md",
         "source-cards/2026-06-06__心克鲁斯__纳斯达克黄金大下杀后对市场的影响.md",
         "source-cards/2026-06-08__心克鲁斯__纳斯达克反弹这次会跟吗.md",
         "source-cards/2026-06-09__心克鲁斯__缩量反弹太弱二次下杀还会有.md",
@@ -2132,6 +2176,17 @@
       "title": "来源画像：随便写写啦01",
       "type": "source-profile",
       "links": [
+        "concepts/科技主线轮动",
+        "concepts/黄金有色周期",
+        "concepts/宏观事件窗口",
+        "concepts/涨价方向",
+        "concepts/十五五政策方向",
+        "entities/黄金有色/profile",
+        "entities/新能源/profile",
+        "entities/锂矿/profile",
+        "entities/半导体材料/profile",
+        "entities/证券/profile",
+        "entities/PCB材料/profile",
         "source-cards/2026-06-16__随便写写啦01__6.16收评",
         "source-cards/2026-06-15__随便写写啦01__6.15收",
         "source-cards/2026-06-12__随便写写啦01__6.12收",
@@ -2142,6 +2197,17 @@
       ],
       "updated": "2026-06-17",
       "resolved_links": [
+        "concepts/十五五政策方向.md",
+        "concepts/宏观事件窗口.md",
+        "concepts/涨价方向.md",
+        "concepts/科技主线轮动.md",
+        "concepts/黄金有色周期.md",
+        "entities/PCB材料/profile.md",
+        "entities/半导体材料/profile.md",
+        "entities/新能源/profile.md",
+        "entities/证券/profile.md",
+        "entities/锂矿/profile.md",
+        "entities/黄金有色/profile.md",
         "source-cards/2026-06-08__随便写写啦01__6.8收.md",
         "source-cards/2026-06-09__随便写写啦01__6.9收.md",
         "source-cards/2026-06-10__随便写写啦01__6.10收.md",
@@ -2156,6 +2222,17 @@
       "title": "来源画像：顶格8848",
       "type": "source-profile",
       "links": [
+        "concepts/仓位和交易纪律",
+        "concepts/科技主线轮动",
+        "concepts/ETF定投",
+        "concepts/涨价方向",
+        "concepts/宏观事件窗口",
+        "entities/黄金有色/profile",
+        "entities/ETF定投/profile",
+        "entities/高股息/profile",
+        "entities/半导体设备/profile",
+        "entities/PCB材料/profile",
+        "entities/锂矿/profile",
         "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF",
         "source-cards/2026-06-16__顶格8848__节前想法",
         "source-cards/2026-06-16__顶格8848__电路板基础知识",
@@ -2167,6 +2244,17 @@
       ],
       "updated": "2026-06-17",
       "resolved_links": [
+        "concepts/ETF定投.md",
+        "concepts/仓位和交易纪律.md",
+        "concepts/宏观事件窗口.md",
+        "concepts/涨价方向.md",
+        "concepts/科技主线轮动.md",
+        "entities/ETF定投/profile.md",
+        "entities/PCB材料/profile.md",
+        "entities/半导体设备/profile.md",
+        "entities/锂矿/profile.md",
+        "entities/高股息/profile.md",
+        "entities/黄金有色/profile.md",
         "source-cards/2026-06-14__顶格8848__失策了.md",
         "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md",
         "source-cards/2026-06-15__顶格8848__不行就上ETF吧.md",
@@ -2409,6 +2497,7 @@
       "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md",
       "source-cards/2026-06-15__顶格8848__接着奏乐接着舞.md",
       "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
+      "source-profiles/顶格8848.md",
       "state/knowledge-attention.md"
     ],
     "concepts/仓位和交易纪律.md": [
@@ -2439,6 +2528,8 @@
       "source-cards/2026-06-15__顶格8848__不行就上ETF吧.md",
       "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md",
       "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/顶格8848.md",
       "state/knowledge-attention.md"
     ],
     "concepts/十五五政策方向.md": [
@@ -2456,6 +2547,8 @@
       "source-cards/2026-06-15__ghb870e859d38d__6.16午评.md",
       "source-cards/2026-06-15__随便写写啦01__6.15收.md",
       "source-cards/2026-06-15__顶格8848__接着奏乐接着舞.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/随便写写啦01.md",
       "state/knowledge-attention.md"
     ],
     "concepts/国产替代.md": [
@@ -2479,6 +2572,7 @@
       "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
       "source-cards/2026-06-17__Lil Gator 小鳄鱼__半导体对日替代赛道分析.md",
       "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
+      "source-profiles/心克鲁斯.md",
       "state/knowledge-attention.md"
     ],
     "concepts/宏观事件窗口.md": [
@@ -2513,6 +2607,10 @@
       "source-cards/2026-06-16__随便写写啦01__6.16收评.md",
       "source-cards/2026-06-16__顶格8848__节前想法.md",
       "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/心克鲁斯.md",
+      "source-profiles/随便写写啦01.md",
+      "source-profiles/顶格8848.md",
       "state/knowledge-attention.md"
     ],
     "concepts/涨价方向.md": [
@@ -2547,6 +2645,9 @@
       "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
       "source-cards/2026-06-16__顶格8848__电路板基础知识.md",
       "source-cards/2026-06-17__Lil Gator 小鳄鱼__半导体对日替代赛道分析.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/随便写写啦01.md",
+      "source-profiles/顶格8848.md",
       "state/knowledge-attention.md"
     ],
     "concepts/科技主线轮动.md": [
@@ -2593,6 +2694,10 @@
       "source-cards/2026-06-16__顶格8848__节前想法.md",
       "source-cards/2026-06-17__Lil Gator 小鳄鱼__半导体对日替代赛道分析.md",
       "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/心克鲁斯.md",
+      "source-profiles/随便写写啦01.md",
+      "source-profiles/顶格8848.md",
       "state/knowledge-attention.md"
     ],
     "concepts/科技材料第二波.md": [
@@ -2609,6 +2714,7 @@
       "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
       "source-cards/2026-06-16__Lil Gator 小鳄鱼__美国半导体建厂资本开支传导周期.md",
       "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
+      "source-profiles/心克鲁斯.md",
       "state/knowledge-attention.md"
     ],
     "concepts/高股息和利率.md": [
@@ -2653,6 +2759,8 @@
       "source-cards/2026-06-15__顶格8848__接着奏乐接着舞.md",
       "source-cards/2026-06-16__Lil Gator 小鳄鱼__美股当下的风险是什么.md",
       "source-cards/2026-06-16__顶格8848__电路板基础知识.md",
+      "source-profiles/心克鲁斯.md",
+      "source-profiles/随便写写啦01.md",
       "state/knowledge-attention.md"
     ],
     "entities/AI电源/profile.md": [
@@ -2661,7 +2769,9 @@
       "source-cards/2026-06-09__心克鲁斯__缩量反弹太弱二次下杀还会有.md",
       "source-cards/2026-06-10__心克鲁斯__CPI数据出炉松了一口气.md",
       "source-cards/2026-06-10__随便写写啦01__6.10收.md",
-      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md"
+      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/心克鲁斯.md"
     ],
     "entities/CPO光模块/profile.md": [
       "concepts/宏观事件窗口.md",
@@ -2675,7 +2785,8 @@
       "source-cards/2026-06-11__心克鲁斯__世界杯浪潮战争阴霾纳斯达克飘红下的坚韧市场.md",
       "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
       "source-cards/2026-06-15__心克鲁斯__纳斯达克暴涨后的数据统计以及第一份年中报诞生.md",
-      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md"
+      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
+      "source-profiles/心克鲁斯.md"
     ],
     "entities/ETF定投/profile.md": [
       "concepts/ETF定投.md",
@@ -2685,7 +2796,8 @@
       "source-cards/2026-06-07__顶格8848__这些细节最后发一次.md",
       "source-cards/2026-06-09__顶格8848__ETF定投普及文.md",
       "source-cards/2026-06-09__顶格8848__有一个姑娘又性感又美丽.md",
-      "source-cards/2026-06-14__顶格8848__失策了.md"
+      "source-cards/2026-06-14__顶格8848__失策了.md",
+      "source-profiles/顶格8848.md"
     ],
     "entities/PCB材料/profile.md": [
       "concepts/国产替代.md",
@@ -2704,7 +2816,11 @@
       "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
       "source-cards/2026-06-15__心克鲁斯__纳斯达克暴涨后的数据统计以及第一份年中报诞生.md",
       "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
-      "source-cards/2026-06-16__顶格8848__电路板基础知识.md"
+      "source-cards/2026-06-16__顶格8848__电路板基础知识.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/心克鲁斯.md",
+      "source-profiles/随便写写啦01.md",
+      "source-profiles/顶格8848.md"
     ],
     "entities/低空经济/profile.md": [
       "concepts/十五五政策方向.md",
@@ -2728,7 +2844,10 @@
       "source-cards/2026-06-13__ghb870e859d38d__6.14瞎聊.md",
       "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
       "source-cards/2026-06-16__Lil Gator 小鳄鱼__美国半导体建厂资本开支传导周期.md",
-      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md"
+      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/心克鲁斯.md",
+      "source-profiles/随便写写啦01.md"
     ],
     "entities/半导体设备/profile.md": [
       "concepts/国产替代.md",
@@ -2738,7 +2857,8 @@
       "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md",
       "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
       "source-cards/2026-06-17__Lil Gator 小鳄鱼__半导体对日替代赛道分析.md",
-      "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md"
+      "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
+      "source-profiles/顶格8848.md"
     ],
     "entities/新能源/profile.md": [
       "concepts/十五五政策方向.md",
@@ -2749,7 +2869,9 @@
       "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
       "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
       "source-cards/2026-06-15__ghb870e859d38d__6.16午评.md",
-      "source-cards/2026-06-15__随便写写啦01__6.15收.md"
+      "source-cards/2026-06-15__随便写写啦01__6.15收.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/随便写写啦01.md"
     ],
     "entities/证券/profile.md": [
       "concepts/宏观事件窗口.md",
@@ -2759,7 +2881,9 @@
       "source-cards/2026-06-11__ghb870e859d38d__6.12午评.md",
       "source-cards/2026-06-12__随便写写啦01__6.12收.md",
       "source-cards/2026-06-14__ghb870e859d38d__6.15午评.md",
-      "source-cards/2026-06-16__随便写写啦01__6.16收评.md"
+      "source-cards/2026-06-16__随便写写啦01__6.16收评.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/随便写写啦01.md"
     ],
     "entities/锂矿/profile.md": [
       "concepts/涨价方向.md",
@@ -2772,7 +2896,10 @@
       "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
       "source-cards/2026-06-15__心克鲁斯__纳斯达克暴涨后的数据统计以及第一份年中报诞生.md",
       "source-cards/2026-06-15__顶格8848__不行就上ETF吧.md",
-      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md"
+      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
+      "source-profiles/心克鲁斯.md",
+      "source-profiles/随便写写啦01.md",
+      "source-profiles/顶格8848.md"
     ],
     "entities/高股息/profile.md": [
       "concepts/仓位和交易纪律.md",
@@ -2786,7 +2913,8 @@
       "source-cards/2026-06-09__顶格8848__继续减仓.md",
       "source-cards/2026-06-10__心克鲁斯__CPI数据出炉松了一口气.md",
       "source-cards/2026-06-14__顶格8848__失策了.md",
-      "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md"
+      "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md",
+      "source-profiles/顶格8848.md"
     ],
     "entities/黄金有色/profile.md": [
       "concepts/涨价方向.md",
@@ -2815,7 +2943,11 @@
       "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md",
       "source-cards/2026-06-15__顶格8848__接着奏乐接着舞.md",
       "source-cards/2026-06-16__Lil Gator 小鳄鱼__美股当下的风险是什么.md",
-      "source-cards/2026-06-16__顶格8848__电路板基础知识.md"
+      "source-cards/2026-06-16__顶格8848__电路板基础知识.md",
+      "source-profiles/ghb870e859d38d.md",
+      "source-profiles/心克鲁斯.md",
+      "source-profiles/随便写写啦01.md",
+      "source-profiles/顶格8848.md"
     ],
     "false-beliefs.md": [
       "overview.md"
