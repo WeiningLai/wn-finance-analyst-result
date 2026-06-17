@@ -2349,9 +2349,13 @@
       "path": "weekly/2026-25-playbook.md",
       "title": "2026-W25 周计划",
       "type": "note",
-      "links": [],
+      "links": [
+        "weekly/2026-24"
+      ],
       "updated": "2026-06-17",
-      "resolved_links": []
+      "resolved_links": [
+        "weekly/2026-24.md"
+      ]
     }
   ],
   "by_type": {
@@ -3298,6 +3302,9 @@
     ],
     "state/knowledge-attention.md": [
       "overview.md"
+    ],
+    "weekly/2026-24.md": [
+      "weekly/2026-25-playbook.md"
     ]
   },
   "broken_links": []
