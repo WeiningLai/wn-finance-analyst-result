@@ -2,8 +2,8 @@
 title: 投资知识库总览
 type: meta
 domain: [investing]
-created: 2026-06-16
-updated: 2026-06-16
+created: 2026-06-17
+updated: 2026-06-17
 confidence: medium
 ---
 
@@ -15,8 +15,8 @@ confidence: medium
 
 | 项目 | 数量 | 入口 |
 | --- | --- | --- |
-| 文章卡片 | 38 | source-cards/ |
-| 待验证假设 | 21 | [[state/hypothesis-ledger|假设追踪清单]] |
+| 文章卡片 | 45 | source-cards/ |
+| 待验证假设 | 22 | [[state/hypothesis-ledger|假设追踪清单]] |
 | 概念页 | 10 | [[concepts/国产替代|概念入口示例]] |
 | 对象页 | 12 | [[entities/半导体材料/profile|对象入口示例]] |
 
