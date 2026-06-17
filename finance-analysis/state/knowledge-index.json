@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-17",
-  "total_pages": 106,
+  "total_pages": 107,
   "pages": [
     {
       "path": "concepts/ETF定投.md",
@@ -2256,6 +2256,14 @@
       "links": [],
       "updated": "2026-06-17",
       "resolved_links": []
+    },
+    {
+      "path": "weekly/2026-25-playbook.md",
+      "title": "2026-W25 周计划",
+      "type": "note",
+      "links": [],
+      "updated": "2026-06-17",
+      "resolved_links": []
     }
   ],
   "by_type": {
@@ -2309,7 +2317,8 @@
       "market-snapshots/2026-06-08.md",
       "market-snapshots/2026-06-17.md",
       "source-profiles/xiaohongshu__Lil Gator 小鳄鱼.md",
-      "weekly/2026-24.md"
+      "weekly/2026-24.md",
+      "weekly/2026-25-playbook.md"
     ],
     "source-card": [
       "source-cards/2025-11-01__Lil Gator 小鳄鱼__财富自由之路-如何像穿越者一样预见未来.md",
