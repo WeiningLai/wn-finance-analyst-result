@@ -3150,9 +3150,21 @@
       "path": "weekly/2026-24.md",
       "title": "2026-W24 周复盘",
       "type": "note",
-      "links": [],
+      "links": [
+        "concepts/宏观事件窗口",
+        "concepts/科技材料第二波",
+        "concepts/涨价方向",
+        "concepts/国产替代",
+        "concepts/仓位和交易纪律"
+      ],
       "updated": "2026-06-17",
-      "resolved_links": []
+      "resolved_links": [
+        "concepts/仓位和交易纪律.md",
+        "concepts/国产替代.md",
+        "concepts/宏观事件窗口.md",
+        "concepts/涨价方向.md",
+        "concepts/科技材料第二波.md"
+      ]
     },
     {
       "path": "weekly/2026-25-playbook.md",
@@ -3392,7 +3404,8 @@
       "source-cards/2026-06/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
       "source-profiles/ghb870e859d38d.md",
       "source-profiles/顶格8848.md",
-      "state/knowledge-attention.md"
+      "state/knowledge-attention.md",
+      "weekly/2026-24.md"
     ],
     "concepts/十五五政策方向.md": [
       "entities/低空经济/profile.md",
@@ -3435,7 +3448,8 @@
       "source-cards/2026-06/2026-06-17__Lil Gator 小鳄鱼__半导体对日替代赛道分析.md",
       "source-cards/2026-06/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
       "source-profiles/心克鲁斯.md",
-      "state/knowledge-attention.md"
+      "state/knowledge-attention.md",
+      "weekly/2026-24.md"
     ],
     "concepts/宏观事件窗口.md": [
       "entities/CPO光模块/profile.md",
@@ -3473,7 +3487,8 @@
       "source-profiles/心克鲁斯.md",
       "source-profiles/随便写写啦01.md",
       "source-profiles/顶格8848.md",
-      "state/knowledge-attention.md"
+      "state/knowledge-attention.md",
+      "weekly/2026-24.md"
     ],
     "concepts/涨价方向.md": [
       "entities/PCB材料/profile.md",
@@ -3510,7 +3525,8 @@
       "source-profiles/ghb870e859d38d.md",
       "source-profiles/随便写写啦01.md",
       "source-profiles/顶格8848.md",
-      "state/knowledge-attention.md"
+      "state/knowledge-attention.md",
+      "weekly/2026-24.md"
     ],
     "concepts/科技主线轮动.md": [
       "entities/AI电源/profile.md",
@@ -3577,7 +3593,8 @@
       "source-cards/2026-06/2026-06-16__Lil Gator 小鳄鱼__美国半导体建厂资本开支传导周期.md",
       "source-cards/2026-06/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
       "source-profiles/心克鲁斯.md",
-      "state/knowledge-attention.md"
+      "state/knowledge-attention.md",
+      "weekly/2026-24.md"
     ],
     "concepts/高股息和利率.md": [
       "entities/证券/profile.md",
