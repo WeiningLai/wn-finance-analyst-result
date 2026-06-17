@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-17",
-  "total_pages": 85,
+  "total_pages": 86,
   "pages": [
     {
       "path": "concepts/ETF定投.md",
@@ -35,6 +35,7 @@
       "links": [
         "entities/ETF定投/profile",
         "entities/高股息/profile",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF",
         "source-cards/2026-06-15__随便写写啦01__6.15收",
         "source-cards/2026-06-15__顶格8848__不行就上ETF吧",
         "source-cards/2026-06-15__ghb870e859d38d__6.16午评",
@@ -53,14 +54,12 @@
         "source-cards/2026-06-07__顶格8848__这些细节最后发一次",
         "source-cards/2026-06-07__顶格8848__强到没朋友",
         "source-cards/2026-06-07__顶格8848__从周期角度看买分红股已不可取",
-        "source-cards/2026-06-06__顶格8848__下一步怎么办",
-        "source-cards/2026-06-02__顶格8848__ETF定投的再补充"
+        "source-cards/2026-06-06__顶格8848__下一步怎么办"
       ],
       "updated": "2026-06-17",
       "resolved_links": [
         "entities/ETF定投/profile.md",
         "entities/高股息/profile.md",
-        "source-cards/2026-06-02__顶格8848__ETF定投的再补充.md",
         "source-cards/2026-06-06__顶格8848__下一步怎么办.md",
         "source-cards/2026-06-07__顶格8848__从周期角度看买分红股已不可取.md",
         "source-cards/2026-06-07__顶格8848__强到没朋友.md",
@@ -79,7 +78,8 @@
         "source-cards/2026-06-15__心克鲁斯__纳斯达克暴涨后的数据统计以及第一份年中报诞生.md",
         "source-cards/2026-06-15__随便写写啦01__6.15收.md",
         "source-cards/2026-06-15__顶格8848__不行就上ETF吧.md",
-        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md"
+        "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md"
       ]
     },
     {
@@ -124,6 +124,7 @@
         "entities/半导体设备/profile",
         "entities/半导体材料/profile",
         "entities/PCB材料/profile",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF",
         "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化",
         "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉",
         "source-cards/2026-06-11__ghb870e859d38d__6.12午评",
@@ -155,7 +156,8 @@
         "source-cards/2026-06-11__随便写写啦01__6.11收.md",
         "source-cards/2026-06-11__顶格8848__不开玩笑前女友也分好坏.md",
         "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
-        "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md"
+        "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md"
       ]
     },
     {
@@ -166,6 +168,7 @@
         "entities/证券/profile",
         "entities/CPO光模块/profile",
         "entities/半导体材料/profile",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF",
         "source-cards/2026-06-16__顶格8848__节前想法",
         "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化",
         "source-cards/2026-06-16__随便写写啦01__6.16收评",
@@ -184,15 +187,13 @@
         "source-cards/2026-06-09__心克鲁斯__缩量反弹太弱二次下杀还会有",
         "source-cards/2026-06-08__心克鲁斯__纳斯达克反弹这次会跟吗",
         "source-cards/2026-06-07__顶格8848__我为什么感到了风险的味道",
-        "source-cards/2026-06-07__顶格8848__这些细节最后发一次",
-        "source-cards/2026-06-07__ghb870e859d38d__6.8午评"
+        "source-cards/2026-06-07__顶格8848__这些细节最后发一次"
       ],
       "updated": "2026-06-17",
       "resolved_links": [
         "entities/CPO光模块/profile.md",
         "entities/半导体材料/profile.md",
         "entities/证券/profile.md",
-        "source-cards/2026-06-07__ghb870e859d38d__6.8午评.md",
         "source-cards/2026-06-07__顶格8848__我为什么感到了风险的味道.md",
         "source-cards/2026-06-07__顶格8848__这些细节最后发一次.md",
         "source-cards/2026-06-08__心克鲁斯__纳斯达克反弹这次会跟吗.md",
@@ -211,7 +212,8 @@
         "source-cards/2026-06-15__随便写写啦01__6.15收.md",
         "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
         "source-cards/2026-06-16__随便写写啦01__6.16收评.md",
-        "source-cards/2026-06-16__顶格8848__节前想法.md"
+        "source-cards/2026-06-16__顶格8848__节前想法.md",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md"
       ]
     },
     {
@@ -281,6 +283,7 @@
         "entities/CPO光模块/profile",
         "entities/半导体材料/profile",
         "entities/PCB材料/profile",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF",
         "source-cards/2026-06-16__顶格8848__节前想法",
         "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化",
         "source-cards/2026-06-16__随便写写啦01__6.16收评",
@@ -299,8 +302,7 @@
         "source-cards/2026-06-11__心克鲁斯__世界杯浪潮战争阴霾纳斯达克飘红下的坚韧市场",
         "source-cards/2026-06-11__随便写写啦01__6.11收",
         "source-cards/2026-06-10__心克鲁斯__CPI数据出炉松了一口气",
-        "source-cards/2026-06-10__随便写写啦01__6.10收",
-        "source-cards/2026-06-09__顶格8848__继续减仓"
+        "source-cards/2026-06-10__随便写写啦01__6.10收"
       ],
       "updated": "2026-06-17",
       "resolved_links": [
@@ -308,7 +310,6 @@
         "entities/CPO光模块/profile.md",
         "entities/PCB材料/profile.md",
         "entities/半导体材料/profile.md",
-        "source-cards/2026-06-09__顶格8848__继续减仓.md",
         "source-cards/2026-06-10__心克鲁斯__CPI数据出炉松了一口气.md",
         "source-cards/2026-06-10__随便写写啦01__6.10收.md",
         "source-cards/2026-06-11__ghb870e859d38d__6.12午评.md",
@@ -327,7 +328,8 @@
         "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
         "source-cards/2026-06-16__随便写写啦01__6.16收评.md",
         "source-cards/2026-06-16__顶格8848__电路板基础知识.md",
-        "source-cards/2026-06-16__顶格8848__节前想法.md"
+        "source-cards/2026-06-16__顶格8848__节前想法.md",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md"
       ]
     },
     {
@@ -719,6 +721,7 @@
       "links": [
         "concepts/国产替代",
         "concepts/科技材料第二波",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF",
         "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化",
         "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注",
         "source-cards/2026-06-11__心克鲁斯__世界杯浪潮战争阴霾纳斯达克飘红下的坚韧市场",
@@ -731,7 +734,8 @@
         "source-cards/2026-06-09__顶格8848__有一个姑娘又性感又美丽.md",
         "source-cards/2026-06-11__心克鲁斯__世界杯浪潮战争阴霾纳斯达克飘红下的坚韧市场.md",
         "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md",
-        "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md"
+        "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
+        "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md"
       ]
     },
     {
@@ -1964,6 +1968,26 @@
       ]
     },
     {
+      "path": "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
+      "title": "业绩一般的拼不过业绩好的，准备调整ETF",
+      "type": "source-card",
+      "links": [
+        "concepts/国产替代",
+        "concepts/宏观事件窗口",
+        "concepts/仓位和交易纪律",
+        "concepts/科技主线轮动",
+        "entities/半导体设备/profile"
+      ],
+      "updated": "2026-06-17",
+      "resolved_links": [
+        "concepts/仓位和交易纪律.md",
+        "concepts/国产替代.md",
+        "concepts/宏观事件窗口.md",
+        "concepts/科技主线轮动.md",
+        "entities/半导体设备/profile.md"
+      ]
+    },
+    {
       "path": "state/hypothesis-ledger.md",
       "title": "hypothesis-ledger",
       "type": "state",
@@ -2104,7 +2128,8 @@
       "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
       "source-cards/2026-06-16__随便写写啦01__6.16收评.md",
       "source-cards/2026-06-16__顶格8848__电路板基础知识.md",
-      "source-cards/2026-06-16__顶格8848__节前想法.md"
+      "source-cards/2026-06-16__顶格8848__节前想法.md",
+      "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md"
     ],
     "state": [
       "state/hypothesis-ledger.md"
@@ -2151,6 +2176,7 @@
       "source-cards/2026-06-15__随便写写啦01__6.15收.md",
       "source-cards/2026-06-15__顶格8848__不行就上ETF吧.md",
       "source-cards/2026-06-15__顶格8848__东边雪山亮的像白银.md",
+      "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
       "state/knowledge-attention.md"
     ],
     "concepts/十五五政策方向.md": [
@@ -2186,6 +2212,7 @@
       "source-cards/2026-06-11__顶格8848__不开玩笑前女友也分好坏.md",
       "source-cards/2026-06-14__心克鲁斯__消息满天飞的周末和谈滞缓美联储会议算力金属概念出炉.md",
       "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
+      "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
       "state/knowledge-attention.md"
     ],
     "concepts/宏观事件窗口.md": [
@@ -2217,6 +2244,7 @@
       "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
       "source-cards/2026-06-16__随便写写啦01__6.16收评.md",
       "source-cards/2026-06-16__顶格8848__节前想法.md",
+      "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
       "state/knowledge-attention.md"
     ],
     "concepts/涨价方向.md": [
@@ -2287,6 +2315,7 @@
       "source-cards/2026-06-16__随便写写啦01__6.16收评.md",
       "source-cards/2026-06-16__顶格8848__电路板基础知识.md",
       "source-cards/2026-06-16__顶格8848__节前想法.md",
+      "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
       "state/knowledge-attention.md"
     ],
     "concepts/科技材料第二波.md": [
@@ -2422,7 +2451,8 @@
       "source-cards/2026-06-09__顶格8848__有一个姑娘又性感又美丽.md",
       "source-cards/2026-06-11__心克鲁斯__世界杯浪潮战争阴霾纳斯达克飘红下的坚韧市场.md",
       "source-cards/2026-06-14__顶格8848__还有一个分红板块值得关注.md",
-      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md"
+      "source-cards/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
+      "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md"
     ],
     "entities/新能源/profile.md": [
       "concepts/十五五政策方向.md",
@@ -2509,7 +2539,6 @@
     ],
     "source-cards/2026-06-02__顶格8848__ETF定投的再补充.md": [
       "concepts/ETF定投.md",
-      "concepts/仓位和交易纪律.md",
       "entities/ETF定投/profile.md"
     ],
     "source-cards/2026-06-04__顶格8848__与时代同行2016-2025历年领涨赛道与底层逻辑.md": [
@@ -2529,8 +2558,7 @@
       "entities/ETF定投/profile.md"
     ],
     "source-cards/2026-06-07__ghb870e859d38d__6.8午评.md": [
-      "concepts/十五五政策方向.md",
-      "concepts/宏观事件窗口.md"
+      "concepts/十五五政策方向.md"
     ],
     "source-cards/2026-06-07__顶格8848__从周期角度看买分红股已不可取.md": [
       "concepts/仓位和交易纪律.md",
@@ -2617,7 +2645,6 @@
       "concepts/仓位和交易纪律.md",
       "concepts/国产替代.md",
       "concepts/宏观事件窗口.md",
-      "concepts/科技主线轮动.md",
       "concepts/高股息和利率.md",
       "entities/高股息/profile.md"
     ],
@@ -2829,6 +2856,13 @@
     "source-cards/2026-06-16__顶格8848__节前想法.md": [
       "concepts/宏观事件窗口.md",
       "concepts/科技主线轮动.md"
+    ],
+    "source-cards/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md": [
+      "concepts/仓位和交易纪律.md",
+      "concepts/国产替代.md",
+      "concepts/宏观事件窗口.md",
+      "concepts/科技主线轮动.md",
+      "entities/半导体设备/profile.md"
     ],
     "state/hypothesis-ledger.md": [
       "false-beliefs.md",
