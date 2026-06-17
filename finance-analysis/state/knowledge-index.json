@@ -3147,35 +3147,41 @@
       "resolved_links": []
     },
     {
-      "path": "weekly/2026-24.md",
+      "path": "weekly/2026-W24__周复盘.md",
       "title": "2026-W24 周复盘",
       "type": "note",
       "links": [
         "concepts/宏观事件窗口",
+        "concepts/科技主线轮动",
         "concepts/科技材料第二波",
         "concepts/涨价方向",
         "concepts/国产替代",
-        "concepts/仓位和交易纪律"
+        "concepts/仓位和交易纪律",
+        "concepts/高股息和利率",
+        "concepts/ETF定投"
       ],
       "updated": "2026-06-17",
       "resolved_links": [
+        "concepts/ETF定投.md",
         "concepts/仓位和交易纪律.md",
         "concepts/国产替代.md",
         "concepts/宏观事件窗口.md",
         "concepts/涨价方向.md",
-        "concepts/科技材料第二波.md"
+        "concepts/科技主线轮动.md",
+        "concepts/科技材料第二波.md",
+        "concepts/高股息和利率.md"
       ]
     },
     {
-      "path": "weekly/2026-25-playbook.md",
+      "path": "weekly/2026-W25__周计划.md",
       "title": "2026-W25 周计划",
       "type": "note",
       "links": [
-        "weekly/2026-24"
+        "weekly/2026-W24__周复盘"
       ],
       "updated": "2026-06-17",
       "resolved_links": [
-        "weekly/2026-24.md"
+        "weekly/2026-W24__周复盘.md"
       ]
     }
   ],
@@ -3230,8 +3236,8 @@
       "market-snapshots/2026-06-08.md",
       "market-snapshots/2026-06-17.md",
       "source-profiles/xiaohongshu__Lil Gator 小鳄鱼.md",
-      "weekly/2026-24.md",
-      "weekly/2026-25-playbook.md"
+      "weekly/2026-W24__周复盘.md",
+      "weekly/2026-W25__周计划.md"
     ],
     "source-card": [
       "source-cards/2025-11/2025-11-01__Lil Gator 小鳄鱼__财富自由之路-如何像穿越者一样预见未来.md",
@@ -3372,7 +3378,8 @@
       "source-cards/2026-06/2026-06-15__顶格8848__接着奏乐接着舞.md",
       "source-cards/2026-06/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
       "source-profiles/顶格8848.md",
-      "state/knowledge-attention.md"
+      "state/knowledge-attention.md",
+      "weekly/2026-W24__周复盘.md"
     ],
     "concepts/仓位和交易纪律.md": [
       "entities/ETF定投/profile.md",
@@ -3405,7 +3412,7 @@
       "source-profiles/ghb870e859d38d.md",
       "source-profiles/顶格8848.md",
       "state/knowledge-attention.md",
-      "weekly/2026-24.md"
+      "weekly/2026-W24__周复盘.md"
     ],
     "concepts/十五五政策方向.md": [
       "entities/低空经济/profile.md",
@@ -3449,7 +3456,7 @@
       "source-cards/2026-06/2026-06-17__顶格8848__业绩一般的拼不过业绩好的准备调整ETF.md",
       "source-profiles/心克鲁斯.md",
       "state/knowledge-attention.md",
-      "weekly/2026-24.md"
+      "weekly/2026-W24__周复盘.md"
     ],
     "concepts/宏观事件窗口.md": [
       "entities/CPO光模块/profile.md",
@@ -3488,7 +3495,7 @@
       "source-profiles/随便写写啦01.md",
       "source-profiles/顶格8848.md",
       "state/knowledge-attention.md",
-      "weekly/2026-24.md"
+      "weekly/2026-W24__周复盘.md"
     ],
     "concepts/涨价方向.md": [
       "entities/PCB材料/profile.md",
@@ -3526,7 +3533,7 @@
       "source-profiles/随便写写啦01.md",
       "source-profiles/顶格8848.md",
       "state/knowledge-attention.md",
-      "weekly/2026-24.md"
+      "weekly/2026-W24__周复盘.md"
     ],
     "concepts/科技主线轮动.md": [
       "entities/AI电源/profile.md",
@@ -3576,7 +3583,8 @@
       "source-profiles/心克鲁斯.md",
       "source-profiles/随便写写啦01.md",
       "source-profiles/顶格8848.md",
-      "state/knowledge-attention.md"
+      "state/knowledge-attention.md",
+      "weekly/2026-W24__周复盘.md"
     ],
     "concepts/科技材料第二波.md": [
       "entities/PCB材料/profile.md",
@@ -3594,7 +3602,7 @@
       "source-cards/2026-06/2026-06-16__心克鲁斯__电池打响了业绩主题以及科技的不断细化.md",
       "source-profiles/心克鲁斯.md",
       "state/knowledge-attention.md",
-      "weekly/2026-24.md"
+      "weekly/2026-W24__周复盘.md"
     ],
     "concepts/高股息和利率.md": [
       "entities/证券/profile.md",
@@ -3609,7 +3617,8 @@
       "source-cards/2026-06/2026-06-10__心克鲁斯__CPI数据出炉松了一口气.md",
       "source-cards/2026-06/2026-06-14__顶格8848__失策了.md",
       "source-cards/2026-06/2026-06-14__顶格8848__还有一个分红板块值得关注.md",
-      "state/knowledge-attention.md"
+      "state/knowledge-attention.md",
+      "weekly/2026-W24__周复盘.md"
     ],
     "concepts/黄金有色周期.md": [
       "entities/黄金有色/profile.md",
@@ -4488,8 +4497,8 @@
     "state/knowledge-attention.md": [
       "overview.md"
     ],
-    "weekly/2026-24.md": [
-      "weekly/2026-25-playbook.md"
+    "weekly/2026-W24__周复盘.md": [
+      "weekly/2026-W25__周计划.md"
     ]
   },
   "broken_links": []
