@@ -1,7 +1,7 @@
-published: 2026-06-17T17:37:17
+published: 2026-06-04T18:59:03
 related_notes: xiaohongshu/6a214bd3000000002003b31e
 source_platform: xiaohongshu
-published_basis: fetched_at
+published_basis: xhs_initial_state_note_time
 
 # 《AI产业链炒作全梳理》
 
@@ -12,7 +12,7 @@ published_basis: fetched_at
 | 项目 | 内容 |
 | --- | --- |
 | 来源 | Lil Gator 小鳄鱼 |
-| 发布时间 | 2026-06-17T17:37:17 |
+| 发布时间 | 2026-06-04T18:59:03 |
 | 关联笔记 | xiaohongshu/6a214bd3000000002003b31e |
 
 ## 核心观点

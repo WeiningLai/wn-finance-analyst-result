@@ -1,7 +1,7 @@
-published: 2026-06-17T17:37:17
+published: 2026-06-02T12:58:00
 related_notes: xiaohongshu/6a1e595800000000210171a9
 source_platform: xiaohongshu
-published_basis: fetched_at
+published_basis: xhs_initial_state_note_time
 
 # 《MiniMax回国意味着什么？》
 
@@ -12,7 +12,7 @@ published_basis: fetched_at
 | 项目 | 内容 |
 | --- | --- |
 | 来源 | Lil Gator 小鳄鱼 |
-| 发布时间 | 2026-06-17T17:37:17 |
+| 发布时间 | 2026-06-02T12:58:00 |
 | 关联笔记 | xiaohongshu/6a1e595800000000210171a9 |
 
 ## 核心观点

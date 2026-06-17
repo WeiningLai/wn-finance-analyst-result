@@ -1,7 +1,7 @@
-published: 2026-06-17T17:37:17
+published: 2026-05-17T10:42:02
 related_notes: xiaohongshu/6a09288d0000000007028dfa
 source_platform: xiaohongshu
-published_basis: fetched_at
+published_basis: xhs_initial_state_note_time
 
 # 《什么是 NACHO trade？》
 
@@ -12,7 +12,7 @@ published_basis: fetched_at
 | 项目 | 内容 |
 | --- | --- |
 | 来源 | Lil Gator 小鳄鱼 |
-| 发布时间 | 2026-06-17T17:37:17 |
+| 发布时间 | 2026-05-17T10:42:02 |
 | 关联笔记 | xiaohongshu/6a09288d0000000007028dfa |
 
 ## 核心观点

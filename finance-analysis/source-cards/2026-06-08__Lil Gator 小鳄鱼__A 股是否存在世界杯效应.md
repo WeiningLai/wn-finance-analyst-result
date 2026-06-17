@@ -1,7 +1,7 @@
-published: 2026-06-17T17:37:17
+published: 2026-06-08T21:28:01
 related_notes: xiaohongshu/6a26c191000000000702e47b
 source_platform: xiaohongshu
-published_basis: fetched_at
+published_basis: xhs_initial_state_note_time
 
 # 《A 股是否存在“世界杯效应”》
 
@@ -12,7 +12,7 @@ published_basis: fetched_at
 | 项目 | 内容 |
 | --- | --- |
 | 来源 | Lil Gator 小鳄鱼 |
-| 发布时间 | 2026-06-17T17:37:17 |
+| 发布时间 | 2026-06-08T21:28:01 |
 | 关联笔记 | xiaohongshu/6a26c191000000000702e47b |
 
 ## 核心观点
