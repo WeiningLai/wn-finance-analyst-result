@@ -287,6 +287,7 @@ def parse_cards(root):
             "thesis": extract_section(analysis_content, "核心观点"),
             "observe": extract_section(analysis_content, "可以怎么观察"),
             "invalid": extract_section(analysis_content, "什么情况说明错了"),
+            "risk": extract_section(analysis_content, "风险和反面观点"),
             "pattern": extract_section(analysis_content, "可复用模式"),
             "content": content,
         }
@@ -420,7 +421,7 @@ def source_quality_rows(cards):
             value = "中频来源，适合补充主题证据"
         else:
             value = "样本偏少，先观察"
-        risk = "需要用确认信号和失效信号过滤，不能按单篇观点直接行动"
+        risk = source_risk_summary(source_cards)
         rows.append([source, str(len(source_cards)), top_concepts, value, risk])
     return rows
 
@@ -436,6 +437,58 @@ def counted_names(cards, key, limit=5):
         for name in card[key]:
             counts[name] = counts.get(name, 0) + 1
     return sorted(counts.items(), key=lambda item: item[1], reverse=True)[:limit]
+
+
+def source_risk_summary(cards):
+    names = [name for name, _ in counted_names(cards, "concepts", 3)]
+    text = " ".join(" ".join([card["title"], card["thesis"], card["observe"], card["invalid"], card["risk"]]) for card in cards)
+    risks = []
+    if any(word in text for word in ["高位", "追高", "冲高回落", "压力位", "放量滞涨"]):
+        risks.append("容易受高位波动和追强情绪影响")
+    if any(word in text for word in ["仓位", "减仓", "轻仓", "止盈", "卖飞", "定投"]):
+        risks.append("仓位建议需要结合自己的成本和执行规则复核")
+    if any(word in text for word in ["涨价", "订单", "毛利率", "半年报", "业绩"]):
+        risks.append("主题判断必须回到价格、订单、毛利率和业绩验证")
+    if any(word in text for word in ["CPI", "美联储", "议息", "美股", "纳斯达克", "外围"]):
+        risks.append("宏观映射不能直接推导到 A 股分支")
+    if names:
+        risks.append(f"观点集中在{'、'.join(names)}，需要跨来源证据过滤")
+    return "；".join(risks[:3]) if risks else "样本仍少，先按单篇假设处理"
+
+
+def source_signal_rows(root, source_cards):
+    rows = []
+    for card in sorted(source_cards, key=lambda c: c["published"], reverse=True):
+        signal = card["observe"] or card["pattern"] or card["thesis"]
+        if not signal:
+            continue
+        verify = card["invalid"] or card["risk"] or "后续需要补市场结构、价格、订单或业绩证据。"
+        rows.append([
+            obsidian_link(root, card["path"], card["title"]),
+            one_line(signal, 72),
+            one_line(verify, 58),
+        ])
+        if len(rows) >= 6:
+            break
+    return rows
+
+
+def source_blind_rows(root, source_cards):
+    rows = []
+    for card in sorted(source_cards, key=lambda c: c["published"], reverse=True):
+        blind = card["risk"] or card["invalid"]
+        if not blind:
+            continue
+        rows.append([
+            obsidian_link(root, card["path"], card["title"]),
+            one_line(blind, 72),
+            one_line(card["invalid"] or "后续缺少验证时降权。", 58),
+        ])
+        if len(rows) >= 6:
+            break
+    if rows:
+        return rows
+    return [[obsidian_link(root, card["path"], card["title"]), "卡片里缺少明确反面观点。", "后续同类内容需要补失效条件。"] for card in source_cards[:3]]
 
 
 def author_profile_pages(root, cards):
@@ -460,6 +513,11 @@ def author_profile_pages(root, cards):
         concept_text = "、".join(f"{name}（{count}）" for name, count in top_concepts) if top_concepts else "待识别"
         entity_text = "、".join(f"{name}（{count}）" for name, count in top_entities) if top_entities else "待识别"
         relation_text = "、".join(concept_links + entity_links) if concept_links or entity_links else "暂未形成稳定链接"
+        signal_rows = source_signal_rows(root, source_cards)
+        blind_rows = source_blind_rows(root, source_cards)
+        tracking_text = f"后续优先跟踪 {concept_names[0]} 相关的新文章。" if concept_names else "后续优先补足能写清确认信号和失效信号的新文章。"
+        if len(concept_names) >= 2:
+            tracking_text = f"后续优先跟踪 {concept_names[0]} 和 {concept_names[1]} 是否继续同时出现，并检查它们是否有市场数据或业绩证据。"
         generated = "\n".join([
             page_header(f"来源画像：{source}", "source-profile", "medium"),
             f"# 来源画像：{source}",
@@ -482,11 +540,11 @@ def author_profile_pages(root, cards):
             "",
             "## 有用的信号",
             "",
-            "有用之处在于提供可复用的观察框架和主题线索。优先提取其中的确认信号、失效信号、仓位边界、价格变化、订单或业绩验证，不把单篇观点直接当成结论。",
+            render_table(["文章", "可提取的信号", "需要怎么验证"], signal_rows),
             "",
             "## 盲点和噪音",
             "",
-            "主要风险是来源观点会受到个人仓位、当日盘面、短期情绪和题材热度影响。若同一来源连续强化一个方向，仍需要跨作者证据、市场快照、价格、订单、毛利率或反例记录来过滤。",
+            render_table(["文章", "可能的盲点或噪音", "降权条件"], blind_rows),
             "",
             "## 和现有知识库的关系",
             "",
@@ -494,7 +552,7 @@ def author_profile_pages(root, cards):
             "",
             "## 继续跟踪条件",
             "",
-            "继续跟踪最近 5-10 篇即可，不需要一次性全量导入。若后续内容能持续给出可验证指标、反面条件和复盘结果，就保持观察；若大量内容变成单日情绪、无法验证的题材判断或缺少失效条件，则降低来源权重。",
+            f"{tracking_text} 若后续内容能持续给出可验证指标、反面条件和复盘结果，就保持观察；若大量内容变成单日情绪、无法验证的题材判断或缺少失效条件，则降低来源权重。",
             "",
             "## 最近样本",
             "",
