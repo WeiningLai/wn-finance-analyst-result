@@ -2,8 +2,8 @@
 title: 证券
 type: entity
 domain: [investing]
-created: 2026-06-17
-updated: 2026-06-17
+created: 2026-06-18
+updated: 2026-06-18
 confidence: medium
 aliases: [券商, 大金融]
 judgment: watching
@@ -15,7 +15,7 @@ judgment: watching
 
 ## 当前判断
 
-截至 2026-06-17，该对象关联 7 张文章卡片和 1 条假设。结论仍需价格、订单、利润或市场结构继续验证。
+截至 2026-06-18，该对象关联 7 张文章卡片和 1 条假设。结论仍需价格、订单、利润或市场结构继续验证。
 
 ## 相关概念
 
