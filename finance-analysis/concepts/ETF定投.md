@@ -2,8 +2,8 @@
 title: ETF定投
 type: concept
 domain: [investing]
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-23
+updated: 2026-06-23
 confidence: medium
 ---
 
@@ -13,7 +13,7 @@ confidence: medium
 
 ## 当前结论
 
-截至 2026-06-18，这个主题共连接 12 张文章卡片和 5 条假设。当前只作为研究框架，不直接构成买卖建议。
+截至 2026-06-23，这个主题共连接 12 张文章卡片和 5 条假设。当前只作为研究框架，不直接构成买卖建议。
 
 ## 投资使用摘要
 

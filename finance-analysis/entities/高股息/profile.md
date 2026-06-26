@@ -2,8 +2,8 @@
 title: 高股息
 type: entity
 domain: [investing]
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-23
+updated: 2026-06-23
 confidence: medium
 aliases: [类债股, 银行, 电力, 煤炭]
 judgment: watching
@@ -15,7 +15,7 @@ judgment: watching
 
 ## 当前判断
 
-截至 2026-06-18，该对象关联 11 张文章卡片和 3 条假设。结论仍需价格、订单、利润或市场结构继续验证。
+截至 2026-06-23，该对象关联 11 张文章卡片和 3 条假设。结论仍需价格、订单、利润或市场结构继续验证。
 
 ## 相关概念
 

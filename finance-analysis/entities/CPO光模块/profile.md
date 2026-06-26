@@ -2,8 +2,8 @@
 title: CPO光模块
 type: entity
 domain: [investing]
-created: 2026-06-18
-updated: 2026-06-18
+created: 2026-06-23
+updated: 2026-06-23
 confidence: medium
 aliases: [CPO, 光模块, 光纤]
 judgment: watching
@@ -15,7 +15,7 @@ judgment: watching
 
 ## 当前判断
 
-截至 2026-06-18，该对象关联 10 张文章卡片和 5 条假设。结论仍需价格、订单、利润或市场结构继续验证。
+截至 2026-06-23，该对象关联 10 张文章卡片和 5 条假设。结论仍需价格、订单、利润或市场结构继续验证。
 
 ## 相关概念
 
