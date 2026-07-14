@@ -2,8 +2,8 @@
 title: 知识库结构复核
 type: meta
 domain: [investing]
-created: 2026-06-29
-updated: 2026-06-29
+created: 2026-07-14
+updated: 2026-07-14
 confidence: medium
 ---
 

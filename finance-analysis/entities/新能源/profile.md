@@ -2,8 +2,8 @@
 title: 新能源
 type: entity
 domain: [investing]
-created: 2026-06-29
-updated: 2026-06-29
+created: 2026-07-14
+updated: 2026-07-14
 confidence: medium
 aliases: [光伏, 新材料]
 judgment: watching
@@ -15,7 +15,7 @@ judgment: watching
 
 ## 当前判断
 
-截至 2026-06-29，该对象关联 10 张文章卡片和 0 条假设。结论仍需价格、订单、利润或市场结构继续验证。
+截至 2026-07-14，该对象关联 10 张文章卡片和 0 条假设。结论仍需价格、订单、利润或市场结构继续验证。
 
 ## 相关概念
 
