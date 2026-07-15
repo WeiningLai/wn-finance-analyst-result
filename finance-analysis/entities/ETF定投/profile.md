@@ -2,8 +2,8 @@
 title: ETF定投
 type: entity
 domain: [investing]
-created: 2026-07-14
-updated: 2026-07-14
+created: 2026-07-15
+updated: 2026-07-15
 confidence: medium
 aliases: [ETF, 成长宽基]
 judgment: watching
@@ -15,7 +15,7 @@ judgment: watching
 
 ## 当前判断
 
-截至 2026-07-14，该对象关联 6 张文章卡片和 3 条假设。结论仍需价格、订单、利润或市场结构继续验证。
+截至 2026-07-15，该对象关联 6 张文章卡片和 3 条假设。结论仍需价格、订单、利润或市场结构继续验证。
 
 ## 相关概念
 
